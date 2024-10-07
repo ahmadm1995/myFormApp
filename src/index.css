@@ -4,7 +4,16 @@
 
 
 
-
+@layer base {
+  body {
+    @apply bg-green-200;
+  }
+}
+@layer base {
+  html {
+    @apply font-karla;
+  }
+}
 
 
 /* :root {
